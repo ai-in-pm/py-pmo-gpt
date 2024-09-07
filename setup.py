@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '2.3.2'
+VERSION = '1.0.0'
 DESCRIPTION = 'Desktop AI Assistant powered by GPT-4, GPT-4V, GPT-3.5, DALL-E 3, Langchain LLMs, Llama-index, ' \
               'Whisper and more with chatbot, assistant, text completion, vision and image generation, ' \
               'internet access, chat with files, commands and code execution, file upload and download and more'
@@ -10,15 +10,14 @@ LONG_DESCRIPTION = 'Package contains a GPT-4, GPT-4V, GPT-3.5, DALL-E 3, Langcha
                    'memory and history, editable presets, customizable UI and more.'
 
 setup(
-    name='pygpt-net',
+    name='py-pmo-gpt-net',
     version=VERSION,
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
-    license='MIT',
-    author="Marcin Szczygliński",
-    author_email='info@pygpt.net',
-    maintainer="Marcin Szczygliński",
-    maintainer_email='info@pygpt.net',
+    author="AI-in-PM",
+    author_email='info@influenceipm.com',
+    maintainer="AI-in-PM",
+    maintainer_email='info@influenceipm.com',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     package_data={'': [
@@ -46,7 +45,7 @@ setup(
         'data/js/highlight/es/*',
         'data/js/highlight/es/languages/*'
     ]},
-    url='https://github.com/szczyglis-dev/py-gpt',
+    url='https://github.com/ai-in-pm/py-pmo-gpt',
     keywords='py_gpt, py-gpt, pygpt, PyGPT, desktop, app, gpt, gpt-4, gpt-4o, gpt-4v, gpt-3.5, tts, whisper, vision, '
              'chatgpt, dall-e, chat, chatbot, assistant, text completion, image generation, ai, api, openai, api key, '
              'langchain, llama-index, presets, ui, qt, pyside',
